@@ -1,4 +1,3 @@
-![Liskov](https://user-images.githubusercontent.com/99614732/196493630-8190549f-53a1-452a-9fb1-b683aacbf70b.png)
 # SOLID_third_Assignment
 ..................................................................................................
 
