@@ -1,0 +1,24 @@
+
+#Single_Responsibility#
+
+1.	How does first project violate the Single Responsibility principles?
+•	It contains three functions  1- add 2-delete: they are close to each other and have a relationship with the name of the class, so you can add an invoice or delete an invoice. As for the function of 3- sendEmail: its function is a little far from the class of the invoice.
+
+•	the second reason is the add and delete functions are a little too long for this class. 
+
+That is, they violate the principles of single responsibility.
+
+
+2.	Draw class diagram for the new design for first project 
+
+
+
+3.	Make the required change on the code to remove the SOLID violations.
+
+•	functions add and delete depend on Database, so I built an Interface(IConnectionDb)  for them it have two function(connectToAdd , ConnectToDelete), and then implementations (MyConnectionDb), and linking with the invoice class through the compositing relationship,to the call of the function ConnectToAdd and ConnectToDelete 
+
+•	 for the function, sendEmail, put it in the interface(ISendEmail), and linking with the invoice class through the compositing relationship, to the call SendEmail function
+
+•	 for the MailMessage class, the class remained the same because the constructor function is fixed, and there is nothing to add to it 
+•	Also, the isVaildMessage remained the same, because the laws of checking email are fixed, there is nothing to add to it, so there will be no problems in the future.
+
