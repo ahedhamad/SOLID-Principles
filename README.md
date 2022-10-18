@@ -1,3 +1,4 @@
+![Liskov](https://user-images.githubusercontent.com/99614732/196493630-8190549f-53a1-452a-9fb1-b683aacbf70b.png)
 # SOLID_third_Assignment
 ..................................................................................................
 
@@ -63,7 +64,8 @@ That is, they violate the principles of Liskov Substitution Principle.
 2.	Draw class diagram for the new design for third project : 
 
 
-![liscov](https://user-images.githubusercontent.com/99614732/196451955-7d53f096-0e7f-4237-822e-d253cd179695.png)
+![Liskov](https://user-images.githubusercontent.com/99614732/196494025-f054fc50-0fe4-40f2-a6cb-30031d9cf8bb.png)
+
 
 3.	Make the required change on the code to remove the Liskov Substitution Principle violations?
 
