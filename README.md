@@ -100,7 +100,7 @@ That is, they violate the principles of Dependency Inversion Principle.
 
 2.	Draw class diagram for the new design for fifth project : 
 
-![dependency](https://user-images.githubusercontent.com/99614732/196452183-c96de8a8-fbfe-40e1-a7f5-5069d8314721.png)
+![Dependency-Inversion_](https://user-images.githubusercontent.com/99614732/196495530-c29326bf-18ef-4a58-8e85-016a3fa5f255.png)
 
 3.	Make the required change on the code to remove the Dependency Inversion Principle violations?
 
