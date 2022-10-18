@@ -1,4 +1,7 @@
 # SOLID_third_Assignment
+..................................................................................................
+
+#Single Responsibility principles
 
 1.	How does first project violate the Single Responsibility principles?
 •	It contains three functions  1- add 2-delete: they are close to each other and have a relationship with the name of the class,
@@ -15,7 +18,7 @@ That is, they violate the principles of single responsibility.
 ![Single Respon](https://user-images.githubusercontent.com/99614732/196451420-d0e324a3-d296-4b55-9aca-49476e0e6d3f.png)
 
 
-3.	Make the required change on the code to remove the SOLID violations.
+3.	Make the required change on the code to remove the SOLID violations?
 
 •	functions add and delete depend on Database, so I built an Interface(IConnectionDb)  for them it have two function(connectToAdd , ConnectToDelete),
 and then implementations (MyConnectionDb), and linking with the invoice class through the compositing relationship,
@@ -39,7 +42,7 @@ and linking with the invoice class through the compositing relationship, to the 
 
 ![Open-Closed](https://user-images.githubusercontent.com/99614732/196451698-eb1ea64d-2dea-499c-8075-43b0b604ee0b.png)
 
-3.	Make the required change on the code to remove the Open-Closed Principle violations.
+3.	Make the required change on the code to remove the Open-Closed Principle violations?
 
 •	Build Interface (IGetOperationResult) and linking it with the Calculator Class through the Aggregation relationship,
 it contains resuls function take the Arraylist numbers, to override it in addition, count, max, min and multiplication classes ,
@@ -62,7 +65,7 @@ That is, they violate the principles of Liskov Substitution Principle.
 
 ![liscov](https://user-images.githubusercontent.com/99614732/196451955-7d53f096-0e7f-4237-822e-d253cd179695.png)
 
-3.	Make the required change on the code to remove the Liskov Substitution Principle violations
+3.	Make the required change on the code to remove the Liskov Substitution Principle violations?
 
 •	It was avoided by making a class (GeneralCustomer) that contains the three functions, 
 and both classes (limited Customer) and class (Public Customer) are inherited from it, then simple changes to the override functions,
@@ -81,7 +84,7 @@ That is, they violate the principles of Interface Segregation Principle.
 
 ![interface](https://user-images.githubusercontent.com/99614732/196451991-65e17014-e84e-4b1d-91be-70277837df1d.png)
 
-3.	Make the required change on the code to remove the Interface Segregation Principle violations.
+3.	Make the required change on the code to remove the Interface Segregation Principle violations?
 
 •	build three interfaces(IFlight, ISwimming, IMolting) for each behaver, thus both classes (Eagle and Penguin) implement the interface it needs without forcing them to take a behaver they don't need.
 •	
@@ -98,7 +101,7 @@ That is, they violate the principles of Dependency Inversion Principle.
 
 ![dependency](https://user-images.githubusercontent.com/99614732/196452183-c96de8a8-fbfe-40e1-a7f5-5069d8314721.png)
 
-3.	Make the required change on the code to remove the Dependency Inversion Principle violations.
+3.	Make the required change on the code to remove the Dependency Inversion Principle violations?
 
 •	Create two implements class (MyKeyboard , MyMonitor) from two interfaces(IKeyboard , IMonitor) where the two interfaces is linked with the (windows Machine) class with a compositing relationship.
 
