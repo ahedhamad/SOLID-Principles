@@ -18,8 +18,7 @@ That is, they violate the principles of single responsibility.
 3.	Make the required change on the code to remove the SOLID violations.
 
 •	functions add and delete depend on Database, so I built an Interface(IConnectionDb)  for them it have two function(connectToAdd , ConnectToDelete),
-and then implementati![Single Respon](https://user-images.githubusercontent.com/99614732/196451291-c5e1e27d-69a7-460f-8fba-3f914526876c.png)
-ons (MyConnectionDb), and linking with the invoice class through the compositing relationship,
+and then implementations (MyConnectionDb), and linking with the invoice class through the compositing relationship,
 to the call of the function ConnectToAdd and ConnectToDelete 
 
 •	 for the function, sendEmail, put it in the interface(ISendEmail),
