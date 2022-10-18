@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="feb8ef5a-2b0b-4c46-81b8-10ac4427bf2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dependency_Inversion/Implements/MyKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dependency_Inversion/Implements/MyMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dependency_Inversion/Interfaces/IKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dependency_Inversion/Interfaces/IMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dependency_Inversion/WindowsMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface_Segregation/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface_Segregation/Implemention/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface_Segregation/Implemention/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface_Segregation/Interfaces/IFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface_Segregation/Interfaces/IMolting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface_Segregation/Interfaces/ISwimming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Liskov_Substitution/GeneralCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Liskov_Substitution/LimitedCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Liskov_Substitution/Offer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Liskov_Substitution/PublicCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Liskov_Substitution/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Single_Responsibility/Implements/MyConnectionDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Single_Responsibility/Implements/MySendEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Single_Responsibility/Inteface/IConnectionDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Single_Responsibility/Inteface/ISendEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Single_Responsibility/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Single_Responsibility/MailMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/Impements/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/Impements/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/Impements/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/Impements/Min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/Impements/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/Interface/IGetOperationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/Operation.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GFXwJG4OMxzZGL3M89DqmkV5bU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Single_Responsibility" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="feb8ef5a-2b0b-4c46-81b8-10ac4427bf2b" name="Changes" comment="" />
+      <created>1665985545713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665985545713</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
