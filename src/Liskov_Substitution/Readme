@@ -1,0 +1,17 @@
+###Liskov_Substitution###
+
+1.	How does third project violate the Liskov Substitution Principle?
+
+becouse subclasses(limited Customer) cannot be substitutable for their supper classes(Customer),
+this means that when using the customer class the code does not work if the subclass(limited customer) is passed.
+
+That is, they violate the principles of Liskov Substitution Principle.
+
+
+2.	Draw class diagram for the new design for third project 
+
+3.	Make the required change on the code to remove the Liskov Substitution Principle violations
+
+•	It was avoided by making a class (GeneralCustomer) that contains the three functions,
+and both classes (limited Customer) and class (Public Customer) are inherited from it,
+then simple changes to the override functions, thus the problem Liskov Substitution was solved
