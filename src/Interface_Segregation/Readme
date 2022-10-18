@@ -1,0 +1,17 @@
+##Interface_Segregation##
+
+1.	How does fourth project violate the Interface Segregation Principle?
+
+Interface Bird forces both classes ( Eagle and Penguin) to make an override all behavers, 
+with this class the eagle takes a behaver that it does not need (swim), and the Penguin class takes a behaver (fly),
+which it does not need.
+
+That is, they violate the principles of Interface Segregation Principle.
+
+
+2.	Draw class diagram for the new design for fourth project 
+
+3.	Make the required change on the code to remove the Interface Segregation Principle violations.
+
+•	build three interfaces(IFlight, ISwimming, IMolting) for each behaver, 
+thus both classes (Eagle and Penguin) implement the interface it needs without forcing them to take a behaver they don't need.
