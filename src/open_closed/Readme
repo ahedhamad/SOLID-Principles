@@ -1,0 +1,18 @@
+#open_closed#
+
+1.	How does Second project violate the Open-Closed Principle?
+ For the calculator class, there are a lot of possible mathematical operations,
+ so the getOperationResult() can be added to many mathematical operations,
+ It becomes difficult to reuse and maintain it because for each mathematical operations,
+ the if-Statement is different, That is, they violate the principles of Open-Closed Principle.
+
+2.	Draw class diagram for the new design for Second project 
+
+3.	Make the required change on the code to remove the Open-Closed Principle violations.
+
+•	Build Interface (IGetOperationResult) and linking it with the Calculator Class through the Aggregation relationship, 
+it contains resuls function take the Arraylist numbers, to override it in addition, count, max, min and multiplication classes , 
+they are implements for the  interface (IGetOperationResult).
+
+•	With this, many if-statements were break in the same function, 
+so modification and maintenance could be done with ease in one class for each operation.
