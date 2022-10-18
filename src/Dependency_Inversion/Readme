@@ -1,0 +1,22 @@
+###Dependency Inversion##
+
+1.	How does fifth project violate the Dependency Inversion Principle?
+•	Because the High Level Model (WindowsMachine) is imported from the Low Level Model (Keyboard and Monitor) directly, 
+thus they depend on each other, and this means that the software modules are tightly connected. Any changes in the future to the classes must be changed on all modules.
+
+•	Abstractions depend on concrete implementations; not concrete implementations depend on abstractions.
+
+That is, they violate the principles of Dependency Inversion Principle.
+
+
+2.	Draw class diagram for the new design for fifth project 
+
+3.	Make the required change on the code to remove the Dependency Inversion Principle violations.
+
+•	Create two implements class (MyKeyboard , MyMonitor) from two interfaces(IKeyboard ,
+IMonitor) where the two interfaces is linked with the (windows Machine) class with a compositing relationship.
+
+•	The high-level modules (Windows Machine) did not import anything from the lower-level modules (keyboard , monitor) directly;
+Both depend on Interfaces (IKeyboard , IMonitor).
+
+•	abstractions not depend on concrete implementations; concrete implementations depend on abstractions.
